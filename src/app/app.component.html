@@ -1,0 +1,28 @@
+<table border="0" style="width: 100%;">
+  <tr>
+    <td style="height: 50px;">
+      <div style="text-align:center">
+        <h1>
+          Welcome to {{title}}!
+        </h1>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="height: 50px;">
+      <a routerLink="/login/signin">
+        <h3 style="text-align: center;">Login</h3>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="height: 550px; vertical-align: top;">
+      <router-outlet></router-outlet>
+    </td>
+  </tr>
+  <tr>
+    <td style="height: 50px; text-align: end;">
+      {{title}}
+    </td>
+  </tr>
+</table>
